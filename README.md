@@ -1,17 +1,31 @@
-# Wikipedia API Scraper
+# 🧠 Wikipedia API Scraper
 
-A Python scraper that extracts data from APIs and Wikipedia pages.
+A simple yet powerful Python scraper that fetches data directly from the **Wikipedia REST API** using the `requests` library.  
+This project is perfect for beginners learning to work with APIs and JSON data.
 
-# What it does
+---
 
-Scrapes Wikipedia articles based on search keywords
+## 🚀 Features
 
-Scrapes any API that allows public access
+- Fetch Wikipedia article summaries via API  
+- Search for articles by keyword  
+- Clean and simple Python code (uses `requests`)  
+- Outputs data in JSON or text format  
+- Easy to extend or integrate into larger projects  
 
-Handles JSON and XML responses
+---
 
-Automatically respects rate limits and retries failed requests
+## 🛠️ Tech Stack
 
-Exports scraped data to CSV
+- **Language:** Python 3.x  
+- **Libraries:** `requests`, `json`  
+- **Data Source:** [Wikipedia REST API](https://en.wikipedia.org/api/rest_v1/)  
 
-Lightweight, easy to configure, and ready to adapt for client projects
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/adminHarsh7372/wikipedia-api-scraper.git
+   cd wikipedia-api-scraper
